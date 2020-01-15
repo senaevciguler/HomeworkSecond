@@ -9,7 +9,7 @@ public class CreatedNewArrayFromOthers {
         System.out.println(Arrays.toString(addArray(arr, arr2)));
     }
 
-    private static int[] addArray(int[] arr1, int[] arr2) {
+    static int[] addArray(int[] arr1, int[] arr2) {
         int aLen = arr1.length;
         int bLen = arr2.length;
         int[] result = new int[aLen + bLen];
